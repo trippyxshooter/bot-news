@@ -1,0 +1,63 @@
+sources:
+  - id: github_trend
+    name: GitHub Trending AI
+    type: scrap
+    url: https://github.com/trending?since=daily&topic=ai
+    interval: 20
+    lang: en
+    weight: 1
+    active: true
+
+  - id: reddit_ml
+    name: Reddit MachineLearning
+    type: rss
+    url: https://www.reddit.com/r/MachineLearning/.rss
+    interval: 2
+    lang: en
+    weight: 1
+    active: true
+
+  - id: coindesk
+    name: CoinDesk Crypto News
+    type: rss
+    url: https://www.coindesk.com/arc/outboundfeeds/rss
+    interval: 2
+    lang: en
+    weight: 1
+    active: true
+
+  - id: verge_ai
+    name: The Verge AI
+    type: rss
+    url: https://www.theverge.com/artificial-intelligence/rss/index.xml
+    interval: 1
+    lang: en
+    weight: 1
+    active: true
+
+  - id: techcrunch_ai
+    name: TechCrunch AI
+    type: rss
+    url: https://techcrunch.com/tag/artificial-intelligence/feed/
+    interval: 1
+    lang: en
+    weight: 1
+    active: true
+
+  - id: mit_ai
+    name: MIT Technology Review AI
+    type: rss
+    url: https://www.technologyreview.com/feed/
+    interval: 1
+    lang: en
+    weight: 1
+    active: true
+
+  - id: cointelegraph
+    name: Cointelegraph Crypto News
+    type: rss
+    url: https://cointelegraph.com/rss
+    interval: 1
+    lang: en
+    weight: 1
+    active: true
